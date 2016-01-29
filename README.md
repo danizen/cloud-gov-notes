@@ -21,7 +21,7 @@ Notes on Cloud.gov
 
 ### What is cloud.gov?
 
-__NOTE:__ Running Cloud Foundry (Pivotal?) but branded as cloud.gov
+~__NOTE:__ Running Cloud Foundry (Pivotal?) but branded as cloud.gov
 
 * PaaS
 * Ruby, Java, PHP, Go, Clojure, Meteor, Node.js, Python and others
@@ -35,7 +35,7 @@ __NOTE:__ Running Cloud Foundry (Pivotal?) but branded as cloud.gov
 
 ### How do I use it?
 
-__NOTE:__ demo by Aiden
+~__NOTE:__ demo by Aiden
 
 * Create an account - we should receive an invitation to a Sandbox account, but can try at other CloudFoundry implementations.
 * Download cf cli - https://github.com/cloudfoundry/cli (releeases) and note also https://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html to remove previous version
