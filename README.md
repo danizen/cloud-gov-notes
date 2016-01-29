@@ -46,6 +46,11 @@ __NOTE:__ demo by Aiden
 
 Questions:
 
-* _Does it run tests?_    No - cloud.gov handles the continuous deployment part.   https://docs.cloud.gov/apps/continuous-deployment/ provides details on integration with various CI servers.
-* _Do I have to use github?_   No.
-* _Is there a Java hello world?_ - Previously answered as coming soon.
+* _Does it run tests?_
+  - No - cloud.gov handles the continuous deployment part.   https://docs.cloud.gov/apps/continuous-deployment/ provides details on integration with various CI servers.
+* _Do I have to use github?_   
+  - No.
+* _Is there a Java hello world?_
+  - Previously answered as coming soon.
+* _Can I get the code from a running app?_
+  - The official answer is no.   There's a hacky way to do it.
