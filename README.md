@@ -1,4 +1,4 @@
-# cloud.gov notes
+# CloudNative DevOps with Cloud.gov Notes
 
 ## Summary
 
