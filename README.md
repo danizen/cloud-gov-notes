@@ -54,3 +54,7 @@ Questions:
   - Previously answered as coming soon.
 * _Can I get the code from a running app?_
   - The official answer is no.   There's a hacky way to do it.
+* _So, buildpacks run in warden containers managed by the droplet execution agents?_
+  - There's a separate component that does the management, but yes, warden containers which include the result of combining the buildpack with the application code are run on droplet execution agents (DEAs).
+* _Does CloudFoundry use Docker_?
+  - CloudFoundry does support Docker images within it, but cloud.gov does not as yet.
