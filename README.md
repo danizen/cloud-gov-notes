@@ -37,9 +37,15 @@ __NOTE:__ Running Cloud Foundry (Pivotal?) but branded as cloud.gov
 
 __NOTE:__ demo by Aiden
 
-* Create an account - we should receive an invitation to a Sandbox account, but can try at other CloudFoundry implementations.
-* Download cf cli - https://github.com/cloudfoundry/cli (releeases) and note also https://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html to remove previous version
-* git clone https://github.com/18f/cf-hello-worlds.git
+* Create an account - you should receive an invitation to a Sandbox account, but can try at other CloudFoundry implementations.
+* Download cf cli from releases area of https://github.com/cloudfoundry/cli and note also https://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html to remove previous version
+* `git clone https://github.com/18f/cf-hello-worlds.git`
 * choose one of the exmaples there
-* cf login -a api.cloud.gov
-* cf push <name>-hello
+* `cf login -a api.cloud.gov`
+* `cf push <name>-hello`
+
+Questions:
+
+* _Does it run tests?_    No - cloud.gov handles the continuous deployment part.   https://docs.cloud.gov/apps/continuous-deployment/ provides details on integration with various CI servers.
+* _Do I have to use github?_   No.
+* _Is there a Java hello world?_ - Previously answered as coming soon.
