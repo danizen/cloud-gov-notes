@@ -44,6 +44,9 @@ __NOTE:__ demo by Aiden
 * `cf login -a api.cloud.gov`
 * `cf push <name>-hello`
 
+
+__NOTE__: This can be tried without cloud.gov - see https://www.cloudfoundry.org/how-can-i-try-out-cloud-foundry/
+
 Questions:
 
 * _Does it run tests?_
